@@ -1,8 +1,8 @@
 pipeline{
         agent any
         environment {
-            app_version = 'v4'
-            rollback = 'False'
+            app_version = 'v3'
+            rollback = 'true'
         }
         stages{
             stage('Build Image'){
